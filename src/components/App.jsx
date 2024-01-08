@@ -123,7 +123,7 @@ export const App = () => {
       }
     };
     addImages();
-  }, [query, page]);
+  }, [query, page, error]);
 
   const handleSubmit = searchQuery => {
     if (query === searchQuery) {
